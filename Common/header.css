@@ -1,0 +1,331 @@
+/* ------------------header------------------- */
+header{
+	width:100%;
+	height: 126px;
+	border-bottom: 1px solid #f6f7f7;
+}
+.line{
+	width:100%;
+	height: 4px;
+	background-color: #FFCB00;
+}
+.content{
+	width:1200px;
+	height:67px;
+	margin:0 auto;
+}
+.contentLeft{
+	width:216px;
+	height: 24px;
+	padding-top:6px;
+	float:left;
+}
+.contentLeft a{
+	float:left;
+	line-height: 24px;
+	font-size: 12px;
+	color:#001022;
+}
+.NavA{
+	width: 72px;
+	height: 24px;
+	background: url(../img/lineRight.jpg) no-repeat 59px center;
+}
+.bgA{
+	width: 36px;
+	height: 24px;
+}
+.contentRight{
+	width:150.22px;
+	padding-top: 6px;
+	height: 24px;
+	float:right;
+}
+.LoginBox{
+	width:70.66px;
+	height: 24px;
+	line-height: 24px;
+	float:left;
+}
+.Login{
+	float:left;
+}
+.Register{
+	float:right;
+}
+.contentRight a{
+	font-size: 12px;
+	color:#001022;
+}
+.GoodCar{
+	width:76px;
+	height: 24px;
+	float:right;
+	position: relative;
+}
+.GoodCarLine{
+	width:20px ;
+	height: 24px;
+	float:left;
+	background: url(../img/lineRight.jpg) no-repeat 7px center;
+}
+.GoodCar a{
+	float:left;
+	width:40px;
+	line-height: 24px;
+}
+.GoodCarIcon{
+	text-align: center;
+	width: 36px;
+	height: 22px;
+	float:left;
+	background: url(../img/Car.png) no-repeat;
+	background-size: 14px 17px;
+	line-height: 14px;
+	background-position: 42px 2px;
+	padding-right: 20px;
+}
+.number{
+	width:15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color:rgba(255, 203, 0, 1);
+	position: absolute;
+	top:10px;
+	right:-5px;
+}
+span{
+	position: absolute;
+	display: block;
+	font-size: 10px;
+	top:1px;
+	right:4px;
+}
+.Logo{
+	position:absolute;
+	top:22px;
+	margin-top:2px;
+	left:532px;
+}
+.Logo img{
+	width: 202px;
+	height: 45px;
+}
+nav{
+	width: 1200px;
+	height:35px;
+	margin:0 auto;
+	margin-top:20px;
+}
+.navLeft{
+	height: 35px;
+	width:760px;
+	float:left;
+}
+.navLeft a{
+	float:left;
+	width:94px;
+	font-size: 14px;
+	color:#111;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+/* --------------吸顶效果------------------ */
+.ScrollTopBox{
+	/* display: none; */
+	width:100%;
+	height: 50px;
+	background-color: white;
+	box-shadow: 0px 1px 3px 1px rgba(20, 28, 35, 0.1);
+	border-top:4px solid #FFCB00;
+	/* 调高层级 */
+	z-index: 99999;
+	display: fixed;
+}
+.ScollTop{
+	width:1200px;
+	padding-top: 8px;
+	height: 42px;
+	background-color: white;
+	margin:0 auto;
+	position: relative;
+}
+.homeIcon{
+	width:125px;
+	height:30px ;
+	float:left;
+	margin-right: 45px;
+}
+.Fruit{
+	position: absolute;
+	top:0;
+	left:-90px;
+}
+.person{
+	position: absolute;
+	top:17px;
+	right: 46px;
+}
+.package{
+	position: absolute;
+	top:13px;
+	right:0;
+}
+.ScroCar{
+	position: absolute;
+	top:2px;
+	right:0;
+}
+/* --------------二级菜单------------------ */
+.second{
+	display: none;
+	width:100%;
+	height: 370px;
+	background-color: white;
+	position: fixed;
+	/* z-index必须在定位下生效 */
+	z-index: 999;
+	top:54px;
+	left:0px;
+}
+.SecondNav{
+	width:1200px;
+	height: 370px;
+	margin:0 auto;
+	background-color: white;
+	position: relative;
+	display: none;
+}
+.SecondBox{
+	width:1200px;
+	height:370px;
+	position: absolute;
+	top:0;
+	left:0;
+	display: none;
+}
+.FirstRow{
+    width:101px;
+	height: 332px;
+	padding:38px 35px 0px 0;
+	float:left;
+}
+.SecondNav .skin{
+	display: block;
+	color:#001022;
+	font-size:14px ;
+	line-height: 14px;
+	margin-bottom: 27px;
+	font-weight: 500;
+}
+.SecondRow{
+	width:113px;
+	height: 332px;
+	padding:38px 40px 0px 60px;
+	float:left;
+}
+.SecondNav .product{
+	display: block;
+	color:#001022;
+	font-size:14px ;
+	line-height: 14px;
+	margin-bottom: 27px;
+	font-weight: 500;
+}
+.SecondBox a{
+	font-size: 12px;
+	color:#001022;
+	line-height: 12px;
+}
+.SecondBox li{
+	margin-bottom: 12px;
+}
+.ThirdRow{
+	width:73px;
+	height: 332px;
+	padding:38px 80px 0px 60px;
+	float:left;
+}
+.SecondNav .series{
+	display: block;
+	color:#001022;
+	font-size:14px ;
+	line-height: 14px;
+	margin-bottom: 27px;
+	font-weight: 500;
+}
+.ProductIcon{
+	width:219px;
+	height: 293px;
+	float:left;
+	position: absolute;
+	top:30px;
+	right:109px;
+}
+.ShareIcon{
+    position: absolute;
+	top:20px;
+	left:20px;
+	width:540px;
+	height: 319px;
+}
+.ShareImage{
+	text-align: center;
+}
+.secondImagList{
+	width:100%;
+	height: 462px;
+}
+.ImageList{
+	width:1200px;
+	height: 409px;
+	padding-top: 26px;
+	padding-bottom:27px;
+	margin:0 auto;
+	clear:both;
+	box-shadow: 0px 17px 16px -15px rgba(20, 28, 35, 0.1);
+}
+.ImageBox{
+	width:169px;
+	height: 62px;
+	float:left;
+	margin-right: 130px;
+	margin-bottom:20px;
+}
+.ImageIcon{
+	width:100px;
+	height: 100%;
+	margin-right: 9px;
+	float:left;
+}
+.ImageText{
+	line-height: 14px;
+	font-size: 14px;
+	color:#111111;
+	padding-top: 24px;
+	font-weight: 800;
+}
+/*--------------- 搜索----------- */
+.search{
+	position: relative;
+}
+table{
+	width:164px;
+	height: 34px;
+	background-color: #FFCB00;
+	float: right;
+}
+.FruitInput{
+	font-size:14px;
+	width:149px;
+	height: 34px;
+	padding-left: 15px;
+	border:none;
+	background-color: #FFCB00;
+}
+.searchBtn{
+	cursor: pointer;
+	position: absolute;
+	top:10px;
+	right:17px;
+}

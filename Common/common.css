@@ -1,0 +1,20 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,ul,ol,td,option,textarea{
+	margin:0;
+	padding:0;
+	cursor: pointer;
+}
+body{
+	font-family: "微软雅黑";
+	/* 隐藏水平方向的滑动条 */
+	overflow-x: hidden;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	display: block;
+}

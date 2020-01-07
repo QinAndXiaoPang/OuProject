@@ -1,0 +1,15 @@
+//模拟json数据
+[
+	{"imgsrc":"img/g1.jpg","title":"焕亮水莹精华面膜","price":"350.00","capacity":"5片","goodsId":1},
+	{"imgsrc":"img/g2.jpg","title":"腊菊活颜紧致精华面霜","price":"540.00","capacity":"50ml","goodsId":2},
+	{"imgsrc":"img/g3.jpg","title":"蜡菊活颜紧致精华液","price":"260.00","capacity":"200ml","goodsId":3},
+	{"imgsrc":"img/g4.jpg","title":"蜡菊活颜紧致保湿水","price":"260.00","capacity":"200ml","goodsId":4},
+	{"imgsrc":"img/g5.jpg","title":"星光瓶+腊菊活颜面霜套装","price":"1100.00","capacity":"肌底液30ml+精华日霜50ml","goodsId":5},
+	{"imgsrc":"img/g6.jpg","title":"蜡菊活颜精华面膜","price":"690.00","capacity":"30ml","goodsId":6},
+	{"imgsrc":"img/g7.jpg","title":"蜡菊活颜精华液","price":"600.00","capacity":"50ml","goodsId":7},
+	{"imgsrc":"img/g8.jpg","title":"蜡菊活颜精华修护晚霜","price":"640.00","capacity":"15ml","goodsId":8},
+	{"imgsrc":"img/g9.jpg","title":"腊菊活颜紧致精华眼霜","price":"360.00","capacity":"15ml","goodsId":9},
+	{"imgsrc":"img/g10.jpg","title":"蜡菊活颜洁面泡沫","price":"240.00","capacity":"150ml","goodsId":10},
+	{"imgsrc":"img/g11.jpg","title":"蜡菊活颜卸妆油","price":"240.00","capacity":"200ml","goodsId":11},
+	{"imgsrc":"img/g12.jpg","title":"蜡菊活颜面部卸妆乳","price":"240.00","capacity":"200ml","goodsId":12}
+]

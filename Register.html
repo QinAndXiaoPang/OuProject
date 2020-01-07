@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>L'OCCITANE 欧舒丹官网|法国天然植物护肤保养品牌</title>
+		<link rel="shortcut icon" href="img/icon.ico" />
+		<link rel="stylesheet" href="Common/common.css">
+		<link rel="stylesheet" href="Common/header.css">
+		<link rel="stylesheet" href="css/Register.css">
+	</head>
+	<body>
+		<header>	
+		</header>
+		<div class="NewMemberBox">
+			<div class="NewMember">
+				<h1 class="MemberTiltle">
+					<span class="NewMemberRegister">新会员注册</span>
+					<span class="required">带*内容为必填项</span>
+				</h1>
+				<div >
+					<input type="text" class="phone" placeholder="请输入11位手机号*" value="17392925150">
+					<div class="phoneConfirm"></div>
+					<div class="ConfirmCode">
+						<input type="text" class="Code" placeholder="填写验证码*" value="74jw">
+						<div class="codeIcon"></div>
+						<a href="#" class="switchOther" onclick="randomCode()">看不清楚?换一个</a>
+					</div>
+					<div class="CodeError"></div>
+					<input type="text" class="phoneCode" placeholder="手机验证码">
+					<div href="" class="request">获取</div>
+					<input type="text" class="phoneCommon" value="abcdef" placeholder="6-20个字符,请不要输入非法字符*">
+					<div class="passTips"></div>
+					<input type="text" class="PassAgain" value="abcdef" placeholder="请再次输入密码*">
+					<div class="passTipsAgain"></div>
+					<div class="readItem">
+						<input type="checkbox" class="ReadCheck">
+						<label for="" class="readP">
+							我已经阅读并接受以下条款：《
+						<a href="" class="private">隐私条款</a>》
+						</label>
+					</div>
+					<div class="SelectAgree"></div>
+					<a class="RegisterBtn" href="#">
+						注　册
+					</a>
+					<div class="RegisterAccount">
+						<div class="RegisterLeftA"></div>
+						<p class="RegisterotherAcc">已是L’OCCITANE会员</p>
+						<div class="RegisterRigA"></div>
+					</div>
+					<button class="RightNowReg">
+						<a href="#" class="RightNowText">立即登录 ></a>
+					</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/Register.js"></script>
+<script>
+	$("header").load("Common/header.html",function(){
+		$(".NavList").mouseover(function(){
+				// 初始化
+				$(".SecondBox").css({display:"none"});
+				$(".second").css({display:"block"});
+				$(".SecondNav").css({display:"block"});
+				$(".second").css({width:"100%",height:370});
+				$(".SecondNav").css({width:1200,height:370});
+				$(".second").css({left:0,top:54});
+				
+				$(".SecondBox").eq($(this).index()).css({display:"block"});
+				if($(this).index()==4||$(this).index()==5){
+					$(".second").css({display:"none"});
+				}
+				if($(this).index()==6){
+					$(".SecondNav").css({width:540,height:319});
+				    $(".second").css({width:540,height:319});
+					$(".second").css({left:600,top:52});
+				}
+				if($(this).index()==7){
+					$(".second").css({width:"100%",height:462});
+					$(".second").css({left:0,top:54});
+				}
+			});
+		$(".second").mouseover(function(){
+			$(this).css({display:"block"});
+		})
+		$(".NavList").mouseout(function(){
+			$(".second").css({display:"none"});
+		})
+		
+		$(".second").mouseout(function(){
+			$(this).css({display:"none"});
+		})
+	});
+	//------------------------------------------------验证码
+	   var arr=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+	   //span
+	   var oSpanCode=document.getElementsByClassName("codeIcon")[0];
+	   oSpanCode.innerHTML="74jw";
+	  //按钮
+	   var index;
+	   var strCode;
+	   var arrStr=[];
+	   function randomCode(){
+	  	oSpanCode.innerHTML="";
+	  	arrStr=[];
+	  	for(i=0;i<4;i++){
+	    index=parseInt(Math.random()*arr.length);
+	  	arrStr.push(arr[index]);
+	   }
+	   strCode=arrStr.join("");
+	   oSpanCode.innerHTML=strCode;
+	   }
+	    var oCodeInput=document.getElementsByClassName("Code")[0];
+		//获取验证码验证框
+		let oError=document.getElementsByClassName("CodeError")[0];
+		//获取大盒子
+		let OcodeBox=document.getElementsByClassName("ConfirmCode")[0];
+	  	var codeFlag=false;
+	  	oCodeInput.onblur=function(){
+			oCodeInput.style.backgroundColor="white";
+	  		if(oCodeInput.value.toLowerCase()==oSpanCode.innerHTML.toLowerCase()){
+	  		   codeFlag=true;
+			   oError.innerHTML="";
+	  	   }
+	  	   else{
+	  		 codeFlag=false;
+			 oError.innerHTML="请正确填写验证码";
+	  	   }
+	  	}
+</script>
+

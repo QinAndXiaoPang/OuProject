@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>L'OCCITANE 欧舒丹官网|法国天然植物护肤保养品牌</title>
+		<link rel="shortcut icon" href="img/icon.ico" />
+		<link rel="stylesheet" href="Common/common.css">
+		<link rel="stylesheet" href="Common/header.css">
+		<link rel="stylesheet" href="css/Login.css">
+	</head>
+	<body>
+		<header>	
+		</header>
+		<div class="LoginHtmlBox">
+			<div class="LoginHtml">
+				<h2 class="LoginTitle">
+					用户登录
+				</h2>
+				<input type="text" placeholder="用户名/邮箱地址/手机号" class="LoginUserName" value="17392925150">
+				<input type="text" placeholder="请填写密码" class="LoginUserPass" value="abcdef">
+				<a class="ConfirmLogin" href="#">
+					登　录
+				</a>
+				<a class="forgetText">忘记密码？</a>
+				<div class="LoginMethod">
+					<div class="LoginLeftM"></div>
+					<p class="otherMethod">其他登录方式</p>
+					<div class="LoginRigM"></div>
+				</div>
+				<div class="LoginIcon">
+					<img class="LoginWei" src="img/weixin.png" alt="">
+					<img class="LoginBo" src="img/weibo.png" alt="">
+				</div>
+				<div class="LoginAccount">
+					<div class="LoginLeftA"></div>
+					<p class="otherAcc">L’OCCITANE新用户？</p>
+					<div class="LoginRigA"></div>
+				</div>
+				<p class="member">
+					立即注册L'OCCITANE 账号！您将享受会员专属特权
+				</p>
+				<a class="LoginHtmlBtn" href="#">
+					立即注册 >
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/login.js"></script>
+<script>
+	$("header").load("Common/header.html",function(){
+		$(".NavList").mouseover(function(){
+				// 初始化
+				$(".SecondBox").css({display:"none"});
+				$(".second").css({display:"block"});
+				$(".SecondNav").css({display:"block"});
+				$(".second").css({width:"100%",height:370});
+				$(".SecondNav").css({width:1200,height:370});
+				$(".second").css({left:0,top:54});
+				
+				$(".SecondBox").eq($(this).index()).css({display:"block"});
+				if($(this).index()==4||$(this).index()==5){
+					$(".second").css({display:"none"});
+				}
+				if($(this).index()==6){
+					$(".SecondNav").css({width:540,height:319});
+				    $(".second").css({width:540,height:319});
+					$(".second").css({left:600,top:52});
+				}
+				if($(this).index()==7){
+					$(".second").css({width:"100%",height:462});
+					$(".second").css({left:0,top:54});
+				}
+			});
+		$(".second").mouseover(function(){
+			$(this).css({display:"block"});
+		})
+		$(".NavList").mouseout(function(){
+			$(".second").css({display:"none"});
+		})
+		
+		$(".second").mouseout(function(){
+			$(this).css({display:"none"});
+		})
+	});
+</script>

@@ -1,0 +1,146 @@
+body{
+	background: url(../img/bgc.jpg);
+	background-position: -321px -211px;
+}
+header{
+	height: 54px;
+}
+.LoginHtmlBox{
+	width:100%;
+	height: 570px;
+}
+.LoginHtml{
+	width:450px;
+	height: 531px;
+	background-color: white;
+	padding-top: 39px;
+	padding-left:130px;
+	margin:0 auto;
+}
+.LoginTitle{
+	font-size: 22px;
+	color: rgba(0, 16, 34, 1);
+	line-height: 22px;
+	margin-bottom: 28px;
+	margin-left:115px;
+}
+.LoginUserName{
+	padding-left:12px;
+	padding-right: 4px;
+	width:302px;
+	height: 38px;
+	border: 1px solid #cccccc;
+	margin-bottom: 21px;
+}
+.LoginUserPass{
+	padding-left:12px;
+	padding-right: 4px;
+	width:302px;
+	height: 38px;
+	border: 1px solid #cccccc;
+	margin-bottom: 21px;
+}
+.ConfirmLogin{
+	display: block;
+	width:320px;
+	height: 38px;
+	background-color:#ffcb00 ;
+	font-size: 12px;
+	line-height: 12px;
+	color: rgba(0, 16, 34, 1);
+	text-align: center;
+	margin-bottom: 11px;
+	line-height: 32px;
+}
+.forgetText{
+	font-size:11px;
+	color:#999999;
+	line-height: 11px;
+	margin-left: 243px;
+}
+.LoginMethod{
+	width:320px;
+	height: 12px;
+	margin-top: 23px;
+}
+.otherMethod{
+	width:94px;
+	height: 12px;
+	font-size:11px;
+	color:#999999;
+	line-height: 11px;
+	float:left;
+}
+.LoginLeftM{
+	height: 12px;
+	width: 113px;
+	background: url(../img/Login.jpg) no-repeat;
+	background-position: 0px 5px;
+	float:left;
+}
+.LoginRigM{
+	height: 12px;
+	width: 113px;
+	background: url(../img/Login.jpg) no-repeat;
+	background-position: 0px 5px;
+	float:left;
+}
+.LoginIcon{
+	width:218px;
+	height: 81px;
+	padding-top: 16px;
+	padding-left: 102px;
+}
+.LoginWei{
+	float:left;
+	margin-right: 44px;
+}
+.LoginBo{
+	float:left;
+}
+.LoginAccount{
+	width:320px;
+	height: 12px;
+}
+.otherAcc{
+	width:142px;
+	height: 12px;
+	font-size:11px;
+	color:#999999;
+	line-height: 11px;
+	float:left;
+}
+.LoginLeftA{
+	height: 12px;
+	width:86px;
+	background: url(../img/Login.jpg) no-repeat;
+	background-position: 0px 5px;
+	float:left;
+}
+.LoginRigA{
+	height: 12px;
+	width: 86px;
+	background: url(../img/Login.jpg) no-repeat;
+	background-position: 0px 5px;
+	float:left;
+}
+.member{
+	width:320px;
+	height: 12px;
+	margin-top: 21px;
+	font-size: 12px;
+	color: #555;
+	text-align: center;
+}
+.LoginHtmlBtn{
+	display: block;
+	width:143px;
+	height: 40px;
+	border: 1px solid #ccc;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 19px;
+	margin-left: 88px;
+	color: #001022;
+	font-size: 12px;
+}

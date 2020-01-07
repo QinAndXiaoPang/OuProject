@@ -1,0 +1,70 @@
+$("header").load("Common/top.html",function(){});
+$(".ScrollTopBox").load("Common/Scroll.html",function(){
+	$(".NavList1").mouseover(function(){
+			// 初始化
+			$(".SecondBox1").css({display:"none"});
+			$(".second1").css({display:"block"});
+			$(".SecondNav").css({display:"block"});
+			$(".second1").css({width:"100%",height:370});
+			$(".SecondNav").css({width:1200,height:370});
+			$(".second1").css({left:0,top:54});
+			
+			$(".SecondBox1").eq($(this).index()).css({display:"block"});
+			if($(this).index()==4||$(this).index()==5){
+				$(".second1").css({display:"none"});
+			}
+			if($(this).index()==6){
+				$(".SecondNav").css({width:540,height:319});
+			    $(".second1").css({width:540,height:319});
+				$(".second1").css({left:600,top:45});
+			}
+			if($(this).index()==7){
+				$(".second1").css({width:"100%",height:462});
+				$(".second1").css({left:0,top:54});
+			}
+		});
+	$(".second1").mouseover(function(){
+		$(this).css({display:"block"});
+	})
+	$(".NavList1").mouseout(function(){
+		$(".second1").css({display:"none"});
+	})
+	$(".second1").mouseout(function(){
+		$(this).css({display:"none"});
+	})
+});
+$(".second1").load("Common/Second.html",function(){
+	$(".NavList").mouseover(function(){
+		// 初始化
+		$(".SecondBox").css({display:"none"});
+		$(".second").css({display:"block"});
+		$(".SecondNav").css({display:"block"});
+		$(".second").css({width:"100%",height:370});
+		$(".SecondNav").css({width:1200,height:370});
+		$(".second").css({left:0,top:126});
+		
+		$(".SecondBox").eq($(this).index()).css({display:"block"});
+		if($(this).index()==4||$(this).index()==5){
+			$(".second").css({display:"none"});
+			$(".second1").css({display:"none"});
+		}
+		if($(this).index()==6){
+			$(".SecondNav").css({width:540,height:319});
+		    $(".second").css({width:540,height:319});
+			$(".second").css({left:430,top:126});
+		}
+		if($(this).index()==7){
+			$(".second").css({width:"100%",height:462});
+			$(".second").css({left:0,top:126});
+		}
+	});
+	$(".second").mouseover(function(){
+		$(this).css({display:"block"});
+	})
+	$(".NavList").mouseout(function(){
+		$(".second").css({display:"none"});
+	})	
+	$(".second").mouseout(function(){
+		$(this).css({display:"none"});
+	})
+});

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>畅销星品_L'OCCITANE 欧舒丹官网|法国天然植物护肤保养品牌</title>
+		<link rel="shortcut icon" href="img/icon.ico" />
+		<link rel="stylesheet" href="Common/common.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/Shopping.css">
+	</head>
+	<body>
+		<!-- header -->
+		<header>	
+		</header> 
+		<!-- 吸顶效果 -->
+		<div class="ScrollTopBox">
+		</div>
+		<!-- 二级菜单 -->
+		<div class="second1">	
+		</div>
+		<!-- 我的购物车 -->
+		<div class="cartEmpty">
+			<p class="MyPackage">我的购物袋(<span class="cartTotalNum">1</span>)</p>
+			<div class="cInner">
+				<div class="cInnerDes">
+					<img src="img/bag.jpg" alt="" class="cInnerImg">
+					<p class="cInnerP">
+						您的购物袋还是空的哦快去看看心仪的产品吧！
+					</p>
+				</div>
+				<div class="goShopBtn">
+					去购物
+				</div>
+			</div>
+			<p class="commendP">
+				推荐商品
+			</p>
+			<!-- 购物袋内容 -->
+			<div class="PackContent">
+				<div class="cartMain">
+						<div class="firstT">
+							<input type="checkbox" class="all" checked="checked">
+							<p class="firstP">全选</p>
+						</div>
+						<div class="SecT">商品信息</div>
+						<div class="ThirdT">商品单价</div>
+						<div class="FourT">数量</div>
+						<div class="FiveT">小计</div>
+				</div>
+				<div class="cartProductMain">
+					<!-- <div class="cartAutoBox">
+						<div class="cartItemIcon">
+							<div class="itemAllBox">
+								<input type="checkbox" class="itemAll" checked="checked">
+							</div>
+							<img src="img/g6.jpg" alt="" class="itemIco">
+						</div>
+						<div class="cartItemInfo">
+							<p class="cartItemName">繁花炫舞美体乳</p>
+							<p class="cartItemMl">规格：250ml</p>
+						</div>
+						<div class="cartItemPrice">
+							￥260.00
+						</div>
+						<div class="cartQuan">
+							<a href="-" class="cartDecrease">-</a>
+							<input type="text" class="cartGoodsNum" value="1">
+							<a href="" class="cartbtnAdd">+</a>
+						</div>
+						<div class="cartTotalPrice">
+							￥260.00
+						</div>
+						<div class="cartDel">
+							<a href="" class="cartDelbtn">删除</a>
+							<i class="cartMiddle">|</i>
+							<a href="" class="cartheart">移到心愿单</a>
+						</div>
+					</div> -->
+				</div>
+				</table>
+			</div>
+			<!-- 订单小计-->
+			<div class="cartOrderPrice">
+				<p class="orderTitle">
+					订单总额<span class="orderS">(不含运费)</span>
+				</p>
+				<div class="orderPrice">
+					<p class="orderLeftPrice">商品价格</p>
+					<p class="orderRightPrice">￥260.00</p>
+				</div>
+				<div class="orderDiscount">
+					<p class="orderLeftDis">优惠金额</p>
+					<p class="orderRightDis">￥0.00</p>
+				</div>
+				<div class="orderTotal">
+					<p class="orderTotalPrice">总价</p>
+					<b class="orderSingPrice">￥260.00</b>
+				</div>
+				<button class="GoCount">去结算</button>
+			</div>
+		</div>
+		<!-- footer -->
+		<!-- <footer>
+		</footer> -->
+	</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
+<script src="js/ShoppingBag.js"></script>
+<script>
+	$("header").load("Common/top.html",function(){});
+	$(".ScrollTopBox").load("Common/Scroll.html",function(){
+		$(".NavList1").mouseover(function(){
+				// 初始化
+				$(".SecondBox1").css({display:"none"});
+				$(".second1").css({display:"block"});
+				$(".SecondNav").css({display:"block"});
+				$(".second1").css({width:"100%",height:370});
+				$(".SecondNav").css({width:1200,height:370});
+				$(".second1").css({left:0,top:54});
+				
+				$(".SecondBox1").eq($(this).index()).css({display:"block"});
+				if($(this).index()==4||$(this).index()==5){
+					$(".second1").css({display:"none"});
+				}
+				if($(this).index()==6){
+					$(".SecondNav").css({width:540,height:319});
+				    $(".second1").css({width:540,height:319});
+					$(".second1").css({left:600,top:45});
+				}
+				if($(this).index()==7){
+					$(".second1").css({width:"100%",height:462});
+					$(".second1").css({left:0,top:54});
+				}
+			});
+		$(".second1").mouseover(function(){
+			$(this).css({display:"block"});
+		})
+		$(".NavList1").mouseout(function(){
+			$(".second1").css({display:"none"});
+		})
+		$(".second1").mouseout(function(){
+			$(this).css({display:"none"});
+		})
+	});
+	$(".second1").load("Common/Second.html",function(){
+		$(".NavList").mouseover(function(){
+			// 初始化
+			$(".SecondBox").css({display:"none"});
+			$(".second").css({display:"block"});
+			$(".SecondNav").css({display:"block"});
+			$(".second").css({width:"100%",height:370});
+			$(".SecondNav").css({width:1200,height:370});
+			$(".second").css({left:0,top:126});
+			
+			$(".SecondBox").eq($(this).index()).css({display:"block"});
+			if($(this).index()==4||$(this).index()==5){
+				$(".second").css({display:"none"});
+				$(".second1").css({display:"none"});
+			}
+			if($(this).index()==6){
+				$(".SecondNav").css({width:540,height:319});
+			    $(".second").css({width:540,height:319});
+				$(".second").css({left:430,top:126});
+			}
+			if($(this).index()==7){
+				$(".second").css({width:"100%",height:462});
+				$(".second").css({left:0,top:126});
+			}
+		});
+		$(".second").mouseover(function(){
+			$(this).css({display:"block"});
+		})
+		$(".NavList").mouseout(function(){
+			$(".second").css({display:"none"});
+		})	
+		$(".second").mouseout(function(){
+			$(this).css({display:"none"});
+		})
+	});
+	$("footer").load("Common/contact.html",function(){});
+</script>
+

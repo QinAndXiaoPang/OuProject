@@ -1,0 +1,218 @@
+body{
+	background: url(../img/bgc.jpg);
+	background-position: -321px -211px;
+}
+header{
+	height: 54px;
+}
+.NewMemberBox{
+	width:100%;
+	height: 670px;
+}
+.NewMember{
+	width:450px;
+	height: 670px;
+	background-color: white;
+	margin: 0 auto;
+	padding-left:130px ;
+}
+.MemberTiltle{
+	width:320px;
+	height:56px;
+}
+.NewMemberRegister{
+	font-size: 22px;
+	color: rgba(0, 16, 34, 1);
+	line-height: 22px;
+	margin-bottom: 40px;
+	position: absolute;
+	left:555px;
+	top:67px;
+}
+.required{
+	font-size: 12px;
+	line-height: 12px;
+	color: rgba(153, 153, 153, 1);
+	position: absolute;
+	left:766px;
+	top:78px;
+}
+.phone{
+	width:308px;
+	height:38px ;
+	padding-left: 12px;
+	border: 1px solid rgba(204, 204, 204, 1);
+    border-radius: 2px;
+}
+.phoneConfirm{
+	width:320px;
+	height: 21px;
+	color: #B8303C;
+	font-size: 12px;
+}
+.ConfirmCode{
+	width:320px;
+	height:38px ;
+}
+.Code{
+	width:130px;
+	height: 38px;
+	border: 1px solid rgba(204, 204, 204, 1);
+	border-radius: 2px;
+	padding-left: 12px;
+	float:left;
+	margin-right: 6px;
+}
+.codeIcon{
+	float:left;
+	margin-top: 6px;
+	margin-right: 5px;
+	width:65px;
+	height: 25px;
+	background-color: #f1faff;
+	text-align: center;
+	line-height: 25px;
+	font-size:12px;
+	color:#3d835f;
+}
+.codeIcon{
+	float:left;
+	margin-top: 6px;
+	margin-right: 5px;
+}
+.switchOther{
+	display: block;
+	color: rgba(153, 153, 153, 1);
+	font-size: 12px;
+	line-height: 38px;
+}
+.CodeError{
+	width:320px;
+	height: 21px;
+	color: #B8303C;
+	font-size: 12px;
+	float:left;
+}
+.phoneCode{
+	width:308px;
+	height:38px ;
+	padding-left: 12px;
+	border: 1px solid rgba(204, 204, 204, 1);
+    border-radius: 2px;
+	margin-bottom: 21px;
+}
+.request{
+	font-size: 12px;
+	font-weight: 400;
+	color: rgba(0, 16, 34, 1);
+	position: absolute;
+	left:829px;
+	top:242px;
+}
+.phoneCommon{
+	width:308px;
+	height:38px ;
+	padding-left: 12px;
+	border: 1px solid rgba(204, 204, 204, 1);
+    border-radius: 2px;
+}
+.passTips{
+	width:320px;
+	height: 21px;
+	color: #B8303C;
+	font-size: 12px;
+	float:left;
+}
+.passTipsAgain{
+	width:320px;
+	height: 21px;
+	color: #B8303C;
+	font-size: 12px;
+	float:left;
+}
+.SelectAgree{
+	width:320px;
+	height: 22px;
+	color: #B8303C;
+	font-size: 12px;
+	float:left;
+	margin-top: 5px;
+}
+.PassAgain{
+	width:308px;
+	height:38px ;
+	padding-left: 12px;
+	border: 1px solid rgba(204, 204, 204, 1);
+    border-radius: 2px;
+}
+.readItem{
+	width:320px;
+	height: 12px;
+	margin-top:22px;
+}
+.readP{
+ margin-left: 5px;
+ margin-right: 15px;
+ font-size: 12px;
+ line-height: 12px;
+}
+.private{
+	font-size: 12px;
+	line-height: 12px;
+	color:#111111;
+}
+.RegisterBtn{
+	/* 去掉边框 */
+	display: block;
+	margin-top: 22px;
+	width: 320px;
+	height: 38px;
+	color: #000;
+	font-size: 12px;
+	line-height: 32px;
+	background: rgba(255, 203, 0, 1);
+	border-radius: 2px;
+	text-align: center;
+	margin-bottom: 38px;
+}
+.RegisterAccount{
+	width:320px;
+	height: 12px;
+	margin-bottom: 19px;
+}
+.RegisterotherAcc{
+	width:142px;
+	height: 12px;
+	font-size:11px;
+	color:#999999;
+	line-height: 11px;
+	float:left;
+}
+.RegisterLeftA{
+	height: 12px;
+	width:86px;
+	background: url(../img/Login.jpg) no-repeat;
+	background-position: 0px 5px;
+	float:left;
+}
+.RegisterRigA{
+	height: 12px;
+	width: 86px;
+	background: url(../img/Login.jpg) no-repeat;
+	background-position: 0px 5px;
+	float:left;
+}
+.RightNowReg{
+	/* 去掉边框 */
+	border: 0 none;
+	width:145px;
+	height: 40px;
+	border: 1px solid #ccc;
+    line-height: 40px;
+	text-align: center;
+	margin-left:87px;
+}
+.RightNowText{
+	font-size: 12px;
+	color:#001022;
+}

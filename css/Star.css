@@ -1,0 +1,121 @@
+.StarTitleBox{
+	width:100%;
+	height: 234px;
+}
+.StarTitle{
+	width:958px;
+	height: 234px;
+	background: url(../img/starTitle.jpg) no-repeat;
+	background-position: -479px 0px;
+	margin: 0 auto;
+}
+.Star1Box{
+	width:100%;
+	height: 466px;
+}
+.Star1{
+	width:958px;
+	height: 466px;
+	background: url(../img/Star5.jpg) no-repeat;
+	background-position: -479px 0px;
+	margin: 0 auto;
+}
+.Star2Box{
+	width:100%;
+	height: 346px;
+}
+.Star2{
+	width:958px;
+	height: 346px;
+	background: url(../img/Star10.jpg) no-repeat;
+	background-position: -479px 0px;
+	margin: 0 auto;
+}
+.Star3Box{
+	width:100%;
+	height: 487px;
+}
+.Star3{
+	width:958px;
+	height: 487px;
+	background: url(../img/Star3.jpg) no-repeat;
+	background-position: -479px 0px;
+	margin: 0 auto;
+}
+.Star4Box{
+	width:100%;
+	height: 446px;
+}
+.Star4{
+	width:958px;
+	height: 446px;
+	background: url(../img/Star7.jpg) no-repeat;
+	background-position: -479px 0px;
+	margin: 0 auto;
+}
+.Star5Box{
+	width:100%;
+	height: 411px;
+}
+.Star5{
+	width:958px;
+	height: 411px;
+	background: url(../img/Star8.jpg) no-repeat;
+	background-position: -479px 0px;
+	margin: 0 auto;
+}
+.Star6Box{
+	width:100%;
+	height: 499px;
+}
+.Star6{
+	width:958px;
+	height: 499px;
+	background: url(../img/Star2.jpg) no-repeat;
+	background-position: -479px 0px;
+	margin: 0 auto;
+}
+.Star7Box{
+	width:100%;
+	height: 398px;
+}
+.Star7{
+	width:958px;
+	height: 398px;
+	background: url(../img/Star9.jpg) no-repeat;
+	background-position: -479px 0px;
+	margin: 0 auto;
+}
+.Star8Box{
+	width:100%;
+	height: 480px;
+}
+.Star8{
+	width:958px;
+	height: 480px;
+	background: url(../img/Star4.jpg) no-repeat;
+	background-position: -479px 0px;
+	margin: 0 auto;
+}
+.Star9Box{
+	width:100%;
+	height: 460px;
+}
+.Star9{
+	width:958px;
+	height: 460px;
+	background: url(../img/Star6.jpg) no-repeat;
+	background-position: -479px 0px;
+	margin: 0 auto;
+}
+.Star10Box{
+	width:100%;
+	height: 520px;
+}
+.Star10{
+	width:958px;
+	height: 520px;
+	background: url(../img/Star1.jpg) no-repeat;
+	background-position: -479px 0px;
+	margin: 0 auto;
+}

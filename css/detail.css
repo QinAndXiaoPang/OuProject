@@ -1,0 +1,304 @@
+.htmlNavBox{
+	width:100%;
+	height: 27px;
+}
+.htmlNav{
+	width:1200px;
+	height: 12px;
+	padding-top: 15px;
+	margin:0 auto;
+	font-size: 12px;
+	line-height: 12px;
+	color: #999;
+}
+.GoodContainerBox{
+	width:100%;
+	height: 482px;
+}
+.GoodContainer{
+	width:1200px;
+	height: 452px;
+	padding-top: 30px;
+	margin:0 auto;
+}
+.small-box{
+	width:382px;
+	height: 382px;
+	/* background: url(../img/24ffbaa.jpg); */
+	/* 小图片 */
+	background-size: 382px 382px;
+	position: relative;
+}
+.detailIcon{
+	width:382px;
+	height: 382px;
+}
+.Goodsdes{
+	width:730px;
+	height: 440px;
+	padding-left: 20px;
+	float:left;
+}
+.GoodsName{
+	height: 44px;
+	padding-bottom: 10px;
+	font-size: 22px;
+	font-weight: 400;
+	color: rgba(0, 16, 34, 1);
+	line-height: 30px;
+}
+.GoodsBox{
+	width:730px;
+	height: 56px;
+	padding-top: 14px;
+	padding-bottom: 11px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.GoodsPrice{
+	font-weight: 400;
+	color: rgba(0, 16, 34, 1);
+	font-size: 22px;
+	line-height: 1.2;
+}
+.text{
+	font-size: 12px;
+	color: #555;
+	line-height: 26px;
+}
+.productBuy{
+	width: 730px;
+	height: 153px;
+    margin-top: 15px;
+}
+.specAttrBox{
+	width:730px;
+	height:30px ;
+	margin-bottom: 10px;
+}
+.specAttr{
+	width: 40px;
+	height: 24px;
+	float:left;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 24px;
+	color: #001022;
+	font-size: 12px;
+	font-weight: 400;
+	margin-right: 6px;
+}
+.specAttr1{
+	width: 40px;
+	height: 24px;
+	float:left;
+	border-color: transparent;
+	text-align: center;
+	line-height: 24px;
+	color: #001022;
+	font-size: 12px;
+	font-weight: 400;
+	margin-right: 6px;
+	background: #FFCB00;
+}
+.productQuan{
+	margin-top: 10px;
+	width:90px;
+	height: 25.766px;
+	border: 1px solid #ccc;
+	color: #666666;
+	font-size: 12px;
+}
+.productAction{
+	width:730px;
+	height:113.766px ;
+	font-size: 12px;
+	color: #666666;
+	margin-bottom:20px ;
+}
+.proQuan{
+	width: 90px;
+	border: 1px solid #ccc;
+	height:25.766px ;
+}
+.btnDecrease{
+	font-size: 20px;
+	height: 24px;
+	line-height: 24px;
+	color: #555;
+	width: 20px;
+	display: block;
+	text-align: center;
+	float:left;
+}
+.GoodsNum{
+	width:50px;
+	height:21px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 21px;
+	padding-left: 0px;
+	background-color: white;
+	margin-top:2px;
+}
+.btnAdd{
+	font-size: 20px;
+	height: 24px;
+	line-height: 24px;
+	color: #555;
+	width: 20px;
+	display: block;
+	text-align: center;
+	float:right;
+}
+.BtnBox{
+	width:730px;
+	height: 46px;
+	margin-top: 40px;
+}
+.BtnBuy{
+	border: none;
+	width:210px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 12px;
+	color: #001022;
+	font-weight: 400;
+	border-radius: 2px;
+	margin-right: 15px;
+	background: #FFCB00;
+}
+.BtnAdd{
+	border: none;
+	width:210px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 12px;
+	color: #001022;
+	font-weight: 400;
+	border-radius: 2px;
+}
+.ProductIcon{
+	width:382px;
+	height: 58px;
+	position: absolute;
+	left:0;
+	top:390px;
+}
+.ProductImgList{
+	width:266px;
+	height:58px ;
+	float:left;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.leftArrowNew{
+	width:58px;
+	height: 100%;
+	float:left;
+}
+.RightArrowNew{
+	width:58px;
+	height: 100%;
+	float:left;
+}
+.smallIcon{
+	width:51px;
+	height: 51px;
+	margin:3px 6px;
+	flex-shrink: 0;
+	border: 2px solid #ffcb00;
+}
+.LL{
+	position: absolute;
+	left:13px;
+	top:24px;
+}
+.RR{
+	position: absolute;
+	left:347px;
+	top:24px;
+}
+/* 长图部分 */
+.LongImgBox{
+	width:100%;
+	height: 11196px;
+}
+.LongImg{
+	width:1200px;
+	height: 11196px;
+	margin: 0 auto;
+}
+.proAdv{
+	width:200px;
+	height: 27px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e5e5e5;
+	float:left;
+}
+.proRecommend{
+	width:185px;
+	height: 12px;
+	padding-bottom:14px ;
+	padding-left: 15px;
+	 color: #001022;
+	font-size: 12px;
+}
+.proTag{
+	width:790px;
+	height:25px;
+	padding:0 85px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	float:right;
+}
+.proDetail{
+	width:54px;
+	height: 12px;
+	padding-bottom: 14px;
+	color: #001022;
+	font-size: 12px;
+	position: absolute;
+	display: block;
+	background: url(../img/yeLine.jpg) no-repeat;
+	background-position: 0px 22px;
+}
+/* 图片 */
+.proIconBox{
+	width:960px;
+	height: 10988px;
+	float:right;
+}
+.proIcon{
+	width:790px;
+	height:10988px ;
+	margin:0 auto;
+}
+/* 放大镜 */
+.small_ProIcon{
+	width:382px;
+	height: 440px;
+	float:left;
+}
+#big-box{
+	/* 大窗口 */
+	height: 600px;
+	width: 600px;
+	/* 大图片 */
+	background-size: 1528px 1528px;
+	background-repeat: no-repeat;
+	position: absolute;
+	left:488px;
+	display: none;
+}
+#mask{
+	/* 小窗口 */
+	height: 150px;
+	width: 150px;
+	background-color: #B3D5FF;
+	opacity: 0.3;
+	position: absolute;
+	display: none;
+}
